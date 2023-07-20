@@ -1,5 +1,3 @@
-![](./media/solutions-microsoft-logo-small.png)
-
 # Repositório de amostras SQL de dados do Azure
 Este repositório do GitHub contém exemplos de código que demonstram como usar os produtos de dados do Azure da Microsoft, incluindo SQL Server, banco de dados SQL do Azure, Azure Synapse e Azure SQL Edge. Cada amostra inclui um arquivo README que explica como executar e usar a amostra.
 
