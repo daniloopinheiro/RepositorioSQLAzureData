@@ -23,11 +23,11 @@ Cada amostra deve estar em sua própria pasta com um arquivo README.md que segue
 ## Clonando apenas um subconjunto do repositório (com checkout esparso)
 Você pode seguir as etapas abaixo para clonar arquivos individuais do repositório git sql-server-samples. Observação: o script a seguir clona apenas os arquivos nas pastas **features** e **demos**.
 ```
-git clone -n https://github.com/Microsoft/sql-server-samples
-cd sql-server-amostras
+git clone -n https://github.com/daniloopinheiro/RepositorioSQLAzureData
+cd RepositorioSQLAzureData
 git config core.sparsecheckout true
 amostras de eco/recursos/*| out-file -append -encoding ascii .git/info/sparse-checkout
-echo samples/demos/*| out-file -append -encoding ascii .git/info/sparse-checkout
+echo RepositorioSQLAzureData/demos/*| out-file -append -encoding ascii .git/info/sparse-checkout
 git check-out
 ```
 Para obter mais informações sobre checkout esparso, visite [this](https://stackoverflow.com/questions/23289006/on-windows-git-error-sparse-checkout-leaves-no-entry-on-the-working-directory) thread stackoverflow.
