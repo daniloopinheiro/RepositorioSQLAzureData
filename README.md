@@ -28,13 +28,3 @@ amostras de eco/recursos/*| out-file -append -encoding ascii .git/info/sparse-ch
 echo RepositorioSQLAzureData/demos/*| out-file -append -encoding ascii .git/info/sparse-checkout
 git check-out
 ```
-Para obter mais informações sobre checkout esparso, visite [this](https://stackoverflow.com/questions/23289006/on-windows-git-error-sparse-checkout-leaves-no-entry-on-the-working-directory) thread stackoverflow.
-
-## Código de Conduta
-Este projeto adotou o [Código de conduta de código aberto da Microsoft](https://opensource.microsoft.com/codeofconduct/). Para obter mais informações, consulte as [Perguntas freqüentes sobre o Código de Conduta](https://opensource.microsoft.com/codeofconduct/faq/) ou entre em contato com [opencode@microsoft.com](mailto:opencode@microsoft.com) com quaisquer perguntas adicionais ou comentários.
-
-## Licença
-Essas amostras e modelos são todos licenciados sob a licença MIT. Consulte o arquivo license.txt na raiz.
-
-## Questões
-Envie perguntas por e-mail para: sqlserversamples@microsoft.com.
